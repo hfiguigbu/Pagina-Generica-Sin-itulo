@@ -1,0 +1,15 @@
+.home-button {
+  position: fixed !important;
+  top: 90px;
+  left: 20px;
+  z-index: 2200;
+  background-color: rgba(0,0,0,0.5) !important;
+  color: #fff !important;
+  font-weight: 600 !important;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+.home-button:hover {
+  background-color: rgba(0,0,0,0.65) !important;
+  border: 1px solid rgba(255,255,255,0.6) !important;
+}
